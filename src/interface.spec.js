@@ -50,7 +50,7 @@ describe('calendar interface', () => {
     });
   });
 
-   describe('output', () => {
+  describe('output', () => {
     it('should convert moment to data', () => {
       const time = 1479805200000;
       const testDate = moment(time);
